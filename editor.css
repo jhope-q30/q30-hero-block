@@ -1,13 +1,17 @@
 .wp-block-q30-hero-block-q30-hero-style {
-    
     display:block;
+    padding:0 0 1px 0;
     background-color:#efefef;
     height:100%;
-
 }
-
+.wp-block-q30-hero-block-q30-hero-style .rich-text {
+    display:block;
+    background-color:#fefefe;
+    margin:16px;
+    padding:8px 16px;
+    text-align:center;
+}
 .wp-block-q30-hero-block-q30-hero-style .hero-image .image-button {
-
     margin:0;
     padding:0;
     display:block;
@@ -15,10 +19,25 @@
     height:auto;
     border:0;
     border-radius:0;
-
 }
 .wp-block-q30-hero-block-q30-hero-style .hero-title-content p { display:inline-block; }
-
+.hero-title-content {
+    display:flex;
+    padding:0 16px;
+    font-size:24px;
+}
+.hero-title-content .block-editor-plain-text {
+    margin:0;
+    padding:0 16px;
+    border-radius:0;
+    background-color:#fefefe;
+    height:auto !important;
+}
+.hero-title-content > .block-editor-plain-text:nth-child(1) { text-align:right; }
+.hero-prefix-space {
+    padding:0 16px;
+    font-weight:bold;
+}
 /* colors */
 .hero-colors { text-align:center; }
 .hero-colors p { color:black; }
