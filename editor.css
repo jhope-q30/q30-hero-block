@@ -18,3 +18,27 @@
 
 }
 .wp-block-q30-hero-block-q30-hero-style .hero-title-content p { display:inline-block; }
+
+/* colors */
+.hero-colors { text-align:center; }
+.hero-colors p { color:black; }
+.hero-colors .components-base-control__field {
+    padding:8px 0 0 0;
+    font-size:18px;
+    text-align:center;
+}
+.hero-colors .components-base-control__field > .components-base-control__label {
+    display:block;
+    font-weight:bold;
+}
+.hero-colors .components-base-control__field > .components-radio-control__option {
+    padding:8px 12px 12px 12px;
+    color:white;
+    display:inline-block;
+}
+.hero-colors .components-base-control__field > .components-radio-control__option:nth-child( 2 ) { background-color:#006a42; }
+.hero-colors .components-base-control__field > .components-radio-control__option:nth-child( 3 ) { background-color:#006269; }
+.hero-colors .components-base-control__field > .components-radio-control__option:nth-child( 4 ) { background-color:#7d5a67; }
+.hero-colors .components-base-control__field > .components-radio-control__option:nth-child( 5 ) { background-color:#6f6558; }
+.hero-colors .components-base-control__field > .components-radio-control__option:nth-child( 6 ) { background-color:#304358; }
+.hero-colors .components-base-control__field > .components-radio-control__option:nth-child( 7 ) { background-color:#594f75; }

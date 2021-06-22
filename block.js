@@ -6,7 +6,7 @@
 	var MediaUpload      = blockEditor.MediaUpload;
 	var RadioControl     = components.RadioControl;
 
-	var colorOptions     = 5;
+	var colorOptions     = 6;
 
 	blocks.registerBlockType( 'q30-hero-block/q30-hero-style', {
 		title: i18n.__( 'hero layout style', 'q30-hero-block' ),
@@ -66,7 +66,10 @@
 			var createColorOptions = function(){
 				var ref = [];
 				for( var q = 0; q < colorOptions; ++q ){
-					ref.push( { label: String( 'option: ' + ( q + 1 ) ), value: String( 'c-' + q ) } );
+					ref.push( {
+						label: String( 'option: ' + ( q + 1 ) ),
+						value: String( 'c-' + q ),
+					} );
 				}
 				return ref;
 			}
@@ -90,8 +93,8 @@
 					),
 					el( RadioControl, {
 						className: 'hero-colors',
-						label: 'Hero color options',
-						help: 'Choose the hero color background for title and text',
+						label: i18n.__( 'Hero text color options', 'q30-hero-block' ),
+						help: i18n.__( 'Choose the hero background color for title and text', 'q30-hero-block' ),
 						selected: attributes.heroCOLOR,
 						options: createColorOptions(),
 						onChange: function( value ) {
@@ -101,6 +104,7 @@
 					el( 'div', { className: 'hero-title-content' },
 						el( PlainText, {
 							value: attributes.heroprefix,
+							placeholder: i18n.__( 'Add hero title prefix', 'q30-hero-block' ),
 							onChange: function( value ) {
 								props.setAttributes( { heroprefix: value } );
 							},
@@ -108,6 +112,7 @@
 						el( 'span', { className: 'hero-prefix-space' }, ':' ),
 						el( PlainText, {
 							value: attributes.herotitle,
+							placeholder: i18n.__( 'Add hero title', 'q30-hero-block' ),
 							onChange: function( value ) {
 								props.setAttributes( { herotitle: value } );
 							},
