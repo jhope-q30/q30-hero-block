@@ -101,7 +101,7 @@
 							props.setAttributes( { heroCOLOR: value } );
 						},
 					} ),
-					el( 'div', { className: 'hero-title-content' },
+					el( 'div', { className: 'hero-title-content', },
 						el( PlainText, {
 							value: attributes.heroprefix,
 							placeholder: i18n.__( 'Add hero title prefix', 'q30-hero-block' ),
