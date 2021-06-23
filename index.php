@@ -3,7 +3,7 @@
 /**
  * Plugin Name: q30 Hero Block
  * Plugin URI: https://github.com/jhope-q30/q30-hero-block
- * Description: This adds hero layout/style to any theme q30-hero-style. Styles that can be extended via theme are the parent class ( .wp-block-q30-hero-block-q30-hero-style ), and child classes within ( .hero-image, .hero-image img, .hero-content, .hero-content .hero-text, .hero-content .hero-text p ).
+ * Description: This adds hero layout/style to any theme q30-hero-style. Styles that can be extended via theme are the parent class ( .wp-block-q30-hero-block-q30-hero-style ), and child classes within ( .hero-image, .hero-image img, .hero-content, .hero-content colors ( c-0, c-1, c-2, c-3, c-4, c-5 ), .hero-content .hero-title-content, .hero-prefix, .hero-prefix-space, .hero-title, .hero-text ).
  * Version: 1.0.0
  * Author: jhope@q30design.com
  *
