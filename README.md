@@ -11,7 +11,7 @@ Description: This adds hero layout/style to any theme q30-hero-style.
 - .hero-image
 - .hero-image img
 - .hero-content
-- .hero-content colors ( c-0, c-1, c-2, c-3, c-4, c-5 )
+- "hero-content" color options ( .c-0, .c-1, .c-2, .c-3, .c-4, .c-5 )
 - .hero-content .hero-title-content
 - .hero-prefix
 - .hero-prefix-space
