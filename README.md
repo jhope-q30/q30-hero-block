@@ -18,7 +18,7 @@ Description: This adds hero layout/style to any theme q30-hero-style.
 - .hero-title
 - .hero-text
 
-You can set the amount of hero color option classes within block.js by setting
+You can set the amount of hero color option classes within block.js by setting. The color options css class is prefix 'c-', plus an incremental number.
 
 ```
 var colorOptions = 6;
