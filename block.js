@@ -6,7 +6,14 @@
 	var MediaUpload      = blockEditor.MediaUpload;
 	var RadioControl     = components.RadioControl;
 
-	var colorOptions     = 6;
+	var colorOptions     = [  
+		'green',
+		'plum',
+		'navy',
+		'teal',
+		'brown',
+		'purple',
+	];
 
 	blocks.registerBlockType( 'q30-hero-block/q30-hero-style', {
 		title: i18n.__( 'hero layout style', 'q30-hero-block' ),
@@ -65,9 +72,9 @@
 			};
 			var createColorOptions = function(){
 				var ref = [];
-				for( var q = 0; q < colorOptions; ++q ){
+				for( var q = 0; q < colorOptions.length; ++q ){
 					ref.push( {
-						label: String( 'option: ' + ( q + 1 ) ),
+						label: String( colorOptions[ q ] ),
 						value: String( 'c-' + q ),
 					} );
 				}

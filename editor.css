@@ -51,9 +51,10 @@
     font-weight:bold;
 }
 .hero-colors .components-base-control__field > .components-radio-control__option {
-    padding:8px 12px 12px 12px;
+    padding:8px 24px 12px 18px;
     color:white;
     display:inline-block;
+    text-transform:capitalize;
 }
 .hero-colors .components-base-control__field > .components-radio-control__option:nth-child( 2 ) { background-color:#006a42; }
 .hero-colors .components-base-control__field > .components-radio-control__option:nth-child( 3 ) { background-color:#006269; }
