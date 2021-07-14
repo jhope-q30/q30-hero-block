@@ -8,10 +8,10 @@
 
 	var colorOptions     = [  
 		'green',
-		'plum',
-		'navy',
 		'teal',
+		'plum',
 		'brown',
+		'navy',
 		'purple',
 	];
 
